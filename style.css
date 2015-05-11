@@ -1,3 +1,11 @@
+#container {
+    width:1500px;
+}
+
+h1 {
+    margin-left:20px;
+}
+
 li.selected, li.row-title {
     width:100px;
     margin-right:50px;
@@ -23,4 +31,9 @@ li > div.race, li > div.class, li > div.marriage, li > div.maxlevel {
 li.selected > div, li.row-title > div {
     display:block;
     height:50px;
+}
+
+#masterlist {
+    float:left;
+    width:200px;
 }
