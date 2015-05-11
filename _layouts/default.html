@@ -1,22 +1,28 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>        
         {% if page.description %}
         <meta name="description" content="{{ page.description }}">
         {% endif %}
         <link rel="stylesheet" href="/style.css" type="text/css" charset="utf-8">
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
         <title>{{ page.title }}</title>
     </head>
     
     <script>
     $(document).ready(function(){
         $("li.followers").click(function(){
-            $('#compare').append( $(this).clone() )
+            $('#compare').append( $(this).clone() );
+            $(this).addClass("selected");
+            $('#compare > li.followers').addClass("draggable");
         });
-        $( "div#button" ).click(function(){
+        $("button").click(function(){
             $('#compare > li.followers').remove();
+            $('li.followers').removeClass("selected");
         });
+        $(".draggable").draggable();
     });
     </script>
 
