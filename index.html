@@ -13,6 +13,14 @@ info:
                 <li class="followers">
                     <div class="name">{{ follower.name }}</div>
                     <div class="race">{{ follower.race }}</div>
+                    <div class="class">{{ follower.class }}</div>
+                    <div class="marriage">
+                        {% if follower.marriage == true %}
+                        yes
+                        {% else %}
+                        no
+                        {% endif %}
+                    </div>
                     <div class="maxlevel">{{ follower.maxlevel }}</div>
                 </li>
             {% endfor %}

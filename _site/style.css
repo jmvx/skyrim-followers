@@ -16,7 +16,11 @@ li > div {
     display:inline-block;
 }
 
-li.selected > div.name, li.selected > div.race, li.selected > div.maxlevel, li.row-title > div {
+li > div.race, li > div.class, li > div.marriage, li > div.maxlevel {
+    display:none;
+}
+
+li.selected > div, li.row-title > div {
     display:block;
     height:50px;
 }
