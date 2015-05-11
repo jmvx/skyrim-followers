@@ -1,0 +1,27 @@
+- id: whiterun
+  folder: whiterun
+  followers:
+  - name: Aela the Huntress
+    race: nord
+    class: ranger
+    marriage: yes
+    maxlevel: 50
+  - name: Lydia
+    race: nord
+    class: warrior
+    marriage: yes
+    maxlevel: 50
+
+- id: riverrun
+  folder: riverrun
+  followers:
+  - name: faendal
+    race: bosmer
+    class: thief
+    marriage: no
+    maxlevel: 30
+  - name: sven
+    race: nord
+    class: bard
+    marriage: no
+    maxlevel: 20

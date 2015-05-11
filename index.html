@@ -1,0 +1,20 @@
+---
+layout: default
+description: Skyrim Followers
+info:
+- whiterun
+- riverrun
+---
+<ul>
+{% for city in page.info %}
+<div id="followers">
+    {% for location in site.data.skyrim %}
+        {% if location.id == city %}
+            {% for follower in location.followers %}
+                <li>{% follower.name %}</li>
+            {% endfor %}
+        {% endif %}
+    {% endfor %}
+</div>
+{% endfor %}
+</ul>

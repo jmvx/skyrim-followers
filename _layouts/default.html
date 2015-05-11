@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% if page.description %}
+        <meta name="description" content="{{ page.description }}">
+        {% endif %}
+        <link rel="stylesheet" href="/style.css" type="text/css" charset="utf-8">
+        <title>{{ page.title }} </title>
+    </head>
+
+    <body>
+        <div id="container">
+            <div id="header">
+                <div id="col1">Compare</div>
+                <div id="col2">Compare</div>
+                <div id="col3">Compare</div>
+                <div id="col4">Compare</div>
+            </div>
+            <div id="content">
+                {{ content }}
+            </div>
+            <div id="footer">Footer</div>
+        </div>
+    </body>
+</html>
