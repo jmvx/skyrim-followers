@@ -6,7 +6,7 @@
         <meta name="description" content="{{ page.description }}">
         {% endif %}
         <link rel="stylesheet" href="/style.css" type="text/css" charset="utf-8">
-        <title>{{ page.title }} </title>
+        <title>{{ page.title }}</title>
     </head>
     
     <script>
@@ -15,6 +15,7 @@
             $(this).addClass("selected")
             if ( $(this).hasClass("selected") ){
                 $('div.compare').append(this);
+            }
         });
     });
     </script>
