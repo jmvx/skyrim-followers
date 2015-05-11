@@ -11,7 +11,7 @@
     
     <script>
     $(document).ready(function(){
-        $("li").click(function(){
+        $("li.followers").click(function(){
             $(this).addClass("selected")
             if ( $(this).hasClass("selected") ){
                 $('#compare').append(this)
@@ -28,9 +28,17 @@
     
         
             
-                <li>Aela the Huntress</li>
+                <li class="followers">
+                    <div class="name">Aela the Huntress</div>
+                    <div class="race">nord</div>
+                    <div class="maxlevel">50</div>
+                </li>
             
-                <li>Lydia</li>
+                <li class="followers">
+                    <div class="name">Lydia</div>
+                    <div class="race">nord</div>
+                    <div class="maxlevel">50</div>
+                </li>
             
         
     
@@ -42,16 +50,30 @@
     
         
             
-                <li>faendal</li>
+                <li class="followers">
+                    <div class="name">faendal</div>
+                    <div class="race">bosmer</div>
+                    <div class="maxlevel">30</div>
+                </li>
             
-                <li>sven</li>
+                <li class="followers">
+                    <div class="name">sven</div>
+                    <div class="race">nord</div>
+                    <div class="maxlevel">20</div>
+                </li>
             
         
     
 
 </ul>
             </div>
-            <ul id="compare"></ul>
+            <ul id="compare">
+                <li class="row-title">
+                    <div>Name</div>
+                    <div>Race</div>
+                    <div>Max Level</div>
+                </li>
+            </ul>
         </div>
     </body>
 </html>

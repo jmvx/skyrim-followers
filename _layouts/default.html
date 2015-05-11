@@ -11,7 +11,7 @@
     
     <script>
     $(document).ready(function(){
-        $("li").click(function(){
+        $("li.followers").click(function(){
             $(this).addClass("selected")
             if ( $(this).hasClass("selected") ){
                 $('#compare').append(this)
@@ -25,7 +25,13 @@
             <div id="content">
                 {{ content }}
             </div>
-            <ul id="compare"></ul>
+            <ul id="compare">
+                <li class="row-title">
+                    <div>Name</div>
+                    <div>Race</div>
+                    <div>Max Level</div>
+                </li>
+            </ul>
         </div>
     </body>
 </html>

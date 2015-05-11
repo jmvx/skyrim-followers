@@ -10,7 +10,11 @@ info:
     {% for location in site.data.skyrim %}
         {% if location.id == city %}
             {% for follower in location.followers %}
-                <li>{{ follower.name }}</li>
+                <li class="followers">
+                    <div class="name">{{ follower.name }}</div>
+                    <div class="race">{{ follower.race }}</div>
+                    <div class="maxlevel">{{ follower.maxlevel }}</div>
+                </li>
             {% endfor %}
         {% endif %}
     {% endfor %}
