@@ -12,18 +12,20 @@
     <script>
     $(document).ready(function(){
         $("li.followers").click(function(){
-            $(this).addClass("selected")
-            if ( $(this).hasClass("selected") ){
-                $('#compare').append(this)
-            }
+            $('#compare').append( $(this).clone() )
+        });
+        $( "div#button" ).click(function(){
+            $('#compare > li.followers').remove();
         });
     });
     </script>
 
     <body>
         <div id="container">
-            <div id="masterlist">
+            <div id="masterlist">                
                 <h1>Compare Followers</h1>
+<div id="button">Clear Chart</div>
+<p>Click on a name to add it to the comparison chart.</p>
 <ul>
 
     

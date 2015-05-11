@@ -12,17 +12,17 @@
     <script>
     $(document).ready(function(){
         $("li.followers").click(function(){
-            $(this).addClass("selected")
-            if ( $(this).hasClass("selected") ){
-                $('#compare').append(this)
-            }
+            $('#compare').append( $(this).clone() )
+        });
+        $( "div#button" ).click(function(){
+            $('#compare > li.followers').remove();
         });
     });
     </script>
 
     <body>
         <div id="container">
-            <div id="masterlist">
+            <div id="masterlist">                
                 {{ content }}
             </div>
             <ul id="compare">
