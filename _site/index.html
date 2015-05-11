@@ -1,20 +1,29 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>        
         
         <meta name="description" content="Skyrim Followers">
         
         <link rel="stylesheet" href="/style.css" type="text/css" charset="utf-8">
         <title> </title>
     </head>
+    
+    <script>
+    $(document).ready(function(){
+        $("li").click(function(){
+            $(this).addClass("selected")
+            if ( $(this).hasClass("selected") ){
+                $('div.compare').append(this);
+        });
+    });
+    </script>
 
     <body>
         <div id="container">
-            <div id="header">Header</div>
             <div id="content">
                 <ul>
 
-<div id="followers">
     
         
             
@@ -26,9 +35,7 @@
     
         
     
-</div>
 
-<div id="followers">
     
         
     
@@ -40,10 +47,10 @@
             
         
     
-</div>
 
+</ul>
             </div>
-            <div id="footer">Footer</div>
+            <div id="compare"></div>
         </div>
     </body>
 </html>
