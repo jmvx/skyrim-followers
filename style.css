@@ -69,3 +69,7 @@ button {
 .selected {
     background-color:yellow;
 }
+
+.ui-sortable-placeholder{
+    display: none !important;
+}

@@ -13,22 +13,26 @@
     
     <script>
     $(document).ready(function(){
+        $('#compare').addClass("sortable");
+        $(".sortable").sortable({
+            items: "li:not(.row-title)"
+        });
         $("li.followers").click(function(){
-            $('#compare').append( $(this).clone() );
-            $(this).addClass("selected");
-            $('#compare > li.followers').addClass("draggable");
+            if ( !$(this).hasClass("selected") ) {
+                $('#compare').append( $(this).clone() );
+                $(this).addClass("selected");
+            }
         });
         $("button").click(function(){
             $('#compare > li.followers').remove();
             $('li.followers').removeClass("selected");
         });
-        $(".draggable").draggable();
     });
     </script>
 
     <body>
         <div id="container">
-            <div id="masterlist">                
+            <div id="masterlist">
                 {{ content }}
             </div>
             <ul id="compare">
