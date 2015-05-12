@@ -2,12 +2,14 @@
     margin-left:20px;
 }
 
-h1, #button, p {
+h1, h2, p {
     margin:0px;
     text-align:center;
+    margin-bottom:10px;
+    margin-top:10px;
 }
 
-p, #button {
+p {
     margin-bottom:20px;
     margin-top:20px;
     font-weight:bold;
@@ -19,10 +21,32 @@ p, #button {
 
 #compare > li, li.row-title {
     width:100px;
-    margin-right:50px;
+    margin-right:20px;
     padding:10px;
     display:inline-block;
+}
+
+#compare > li.followers {
+    border:1px solid gray;
+}
+
+#masterlist li.followers {
     list-style-type:none;
+    border-bottom:1px dashed black;
+    padding:10px;
+}
+
+#masterlist li.followers:first-child {
+    border-top:1px dashed black;
+}
+
+#masterlist li.followers:hover {
+    background-color:yellow;
+}
+
+#masterlist > ul {
+    padding:0;
+    margin:0;
 }
 
 li.row-title {
@@ -30,17 +54,9 @@ li.row-title {
     font-weight:bold;
 }
 
-#masterlist li > div {
-    display:inline-block;
-}
-
-#masterlist li > div.race, #masterlist li > div.class, #masterlist li > div.marriage, #masterlist li > div.maxlevel {
-    display:none;
-}
-
 #compare li > div, li.row-title > div {
     display:block;
-    height:50px;
+    height:100px;
 }
 
 #masterlist {
@@ -50,20 +66,20 @@ li.row-title {
     padding-right:20px;
 }
 
+#masterlist li > div {
+    display:none;
+}
+
+#masterlist li > div:first-child {
+    display:block;
+}
+
 button {
     width:100px;
     display:block;
     margin-right:auto;
     margin-left:auto;
     margin-top:10px;
-}
-
-.draggable {
-    border:1px solid red;
-    background-color:yellow;
-    width: 100px; 
-    height: 300px;
-    z-index:100;
 }
 
 .selected {

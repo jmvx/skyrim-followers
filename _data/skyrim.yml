@@ -1,7 +1,7 @@
 - id: whiterun
   folder: whiterun
   followers:
-  - name: Aela the Huntress
+  - name: Aela the Sexy Huntress
     race: nord
     class: ranger
     marriage: yes
@@ -25,3 +25,26 @@
     class: bard
     marriage: no
     maxlevel: 20
+
+- id: winterhold
+  folder: winterhold
+  followers:
+  - name: Brelyna Maryon
+    race: dunmer
+    class: mystic
+    skills: alteration, illusion, conjuration, sneak
+    marriage: yes
+    maxlevel: 30
+  - name: J'zargo
+    race: Khajiit
+    class: sorcerer
+    skills: destruction, illusion, heavy armor, one-handed
+    marriage: no
+    maxlevel: none
+  - name: Onmund
+    race: nord
+    class: sorcerer
+    skills: destruction, illusion, heavy armor, one-handed
+    marriage: yes
+    maxlevel: 30
+    

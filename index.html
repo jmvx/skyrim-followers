@@ -1,33 +1,28 @@
 ---
 layout: default
 description: Skyrim Followers
-info:
-- whiterun
-- riverrun
 ---
 <h1>Skyrim Followers</h1>
 <button>Clear Chart</button>
 <p>Click on a name to add it to the comparison chart.</p>
-<ul>
-{% for city in page.info %}
-    {% for location in site.data.skyrim %}
-        {% if location.id == city %}
-            {% for follower in location.followers %}
-                <li class="followers">
-                    <div class="name">{{ follower.name }}</div>
-                    <div class="race">{{ follower.race }}</div>
-                    <div class="class">{{ follower.class }}</div>
-                    <div class="marriage">
-                        {% if follower.marriage == true %}
-                        yes
-                        {% else %}
-                        no
-                        {% endif %}
-                    </div>
-                    <div class="maxlevel">{{ follower.maxlevel }}</div>
-                </li>
-            {% endfor %}
-        {% endif %}
-    {% endfor %}
+{% for location in site.data.skyrim %}
+<h2>{{ location.id }}</h2>
+    <ul>
+        {% for follower in location.followers %}
+            <li class="followers">
+                <div class="name">{{ follower.name }}</div>
+                <div class="race">{{ follower.race }}</div>
+                <div class="class">{{ follower.class }}</div>
+                <div class="skills">{{ follower.skills }}</div>
+                <div class="marriage">
+                    {% if follower.marriage == true %}
+                    yes
+                    {% else %}
+                    no
+                    {% endif %}
+                </div>
+                <div class="maxlevel">{{ follower.maxlevel }}</div>
+            </li>
+        {% endfor %}
+    </ul>
 {% endfor %}
-</ul>
