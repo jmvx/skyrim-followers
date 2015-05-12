@@ -3,7 +3,7 @@
   - name: Aela the Huntress
     race: nord
     class: ranger
-    skills: 
+    skills:
     marriage: yes
     maxlevel: 50
   - name: Athis
@@ -21,7 +21,7 @@
   - name: Njada Stonearm
     race: nord
     class: warrior
-    skills: 
+    skills:
     marriage: yes
     maxlevel: 25
   - name: Lydia
@@ -71,7 +71,7 @@
   - name: Argis the Bulwark
     race: nord
     class: warrior
-    skills: 
+    skills:
     marriage: yes
     maxlevel: 50
 
@@ -92,7 +92,7 @@
     skills: one-handed, heavy armor, block, archery, two-handed
     marriage: yes
     maxlevel: 50
-    
+
 - id: riften
   followers:
   - name: Iona
@@ -128,4 +128,4 @@
     skills: one-handed, heavy armor, destruction, alteration, restoration
     marriage: yes
     maxlevel: 50
-    
+
