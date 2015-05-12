@@ -30,6 +30,11 @@
     skills: block (trainer), one handed, speech, pickpocket, sneak, smithing
     marriage: yes
     maxlevel: 50
+  - name: Ria
+    race: imperial
+    class: warrior
+    skills: heavy armor, one-handed, archery, block
+    marriage: yes
 
 - id: riverrun
   followers:
@@ -65,6 +70,16 @@
     skills: destruction, illusion, heavy armor, one-handed
     marriage: yes
     maxlevel: 30
+  - name: Torvar
+    race: nord
+    skills: one-handed, heavy armor, block, archery, two-handed
+    marriage: yes
+    maxlevel: 25
+  - name: Vilkas
+    race: nord
+    skills: two-handed, heavy armor, block, archery, one-handed
+    maxlevel: 50
+    marriage: yes
 
 - id: markarth
   followers:
