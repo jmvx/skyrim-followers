@@ -1,23 +1,42 @@
 - id: whiterun
-  folder: whiterun
   followers:
-  - name: Aela the Sexy Huntress
+  - name: Aela the Huntress
     race: nord
     class: ranger
+    skills: 
     marriage: yes
     maxlevel: 50
+  - name: Athis
+    race: dunmer
+    class: warrior
+    skills: heavy armor, one handed
+    marriage: yes
+    maxlevel: 25
+  - name: Farkas
+    race: nord, werewolf
+    class: blacksmith
+    skills: one handed, smithing, heavy armor (trainer)
+    marriage: yes
+    maxlevel: 50
+  - name: Njada Stonearm
+    race: nord
+    class: warrior
+    skills: 
+    marriage: yes
+    maxlevel: 25
   - name: Lydia
     race: nord
     class: warrior
+    skills: block (trainer), one handed, speech, pickpocket, sneak, smithing
     marriage: yes
     maxlevel: 50
 
 - id: riverrun
-  folder: riverrun
   followers:
   - name: faendal
     race: bosmer
     class: thief
+    skills:
     marriage: no
     maxlevel: 30
   - name: sven
@@ -27,24 +46,86 @@
     maxlevel: 20
 
 - id: winterhold
-  folder: winterhold
   followers:
   - name: Brelyna Maryon
     race: dunmer
-    class: mystic
+    class: mage
     skills: alteration, illusion, conjuration, sneak
     marriage: yes
     maxlevel: 30
   - name: J'zargo
     race: Khajiit
-    class: sorcerer
+    class: mage
     skills: destruction, illusion, heavy armor, one-handed
     marriage: no
     maxlevel: none
   - name: Onmund
     race: nord
-    class: sorcerer
+    class: mage
     skills: destruction, illusion, heavy armor, one-handed
     marriage: yes
     maxlevel: 30
+
+- id: markarth
+  followers:
+  - name: Argis the Bulwark
+    race: nord
+    class: warrior
+    skills: 
+    marriage: yes
+    maxlevel: 50
+
+- id: windhelm
+  followers:
+  - name: Calder
+    race: nord
+    class: warrior
+    skills: archery, one-handed, block, heavy armor
+    marriage: yes
+    maxlevel: 50
+
+- id: dawnstar
+  followers:
+  - name: Gregor
+    race: nord
+    class: warrior
+    skills: one-handed, heavy armor, block, archery, two-handed
+    marriage: yes
+    maxlevel: 50
+    
+- id: riften
+  followers:
+  - name: Iona
+    race: nord
+    class: warrior
+    skills: one-handed, heavy armor, block
+    marriage: yes
+    maxlevel: 50
+
+- id: solitude
+  followers:
+  - name: Jordis the Sword-Maiden
+    race: nord
+    class: warrior
+    skills: heavy armor, archery, block, one-handed
+    marriage: yes
+    maxlevel:
+
+- id: falkreath
+  followers:
+  - name      : Rayya
+    race      : redguard
+    class     : warrior
+    skills    : heavy armor, one handed, block, archery
+    marriage  : yes
+    maxlevel  : 50
+
+- id: morthal
+  followers:
+  - name: Valdimar
+    race: nord
+    class: sorcerer
+    skills: one-handed, heavy armor, destruction, alteration, restoration
+    marriage: yes
+    maxlevel: 50
     

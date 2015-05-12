@@ -28,6 +28,9 @@ p {
 
 #compare > li.followers {
     border:1px solid gray;
+    background-color:black;
+    color:white;
+    border-radius:5px;
 }
 
 #masterlist li.followers {
