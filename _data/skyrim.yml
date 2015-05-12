@@ -3,7 +3,7 @@
   - name: Aela the Huntress
     race: nord, werewolf
     class: ranger
-    skills:
+    skills: Unknown
     marriage: yes
     maxlevel: 50
   - name: Athis
@@ -21,7 +21,7 @@
   - name: Njada Stonearm
     race: nord
     class: warrior
-    skills:
+    skills: Unknown
     marriage: yes
     maxlevel: 25
   - name: Lydia
@@ -33,7 +33,7 @@
   - name: Ria
     race: imperial
     class: warrior
-    skills: heavy armor, one-handed, archery, block
+    skills: heavy armor, one handed, archery, block
     marriage: yes
 
 - id: riverrun
@@ -41,7 +41,7 @@
   - name: faendal
     race: bosmer
     class: thief
-    skills:
+    skills: Unknown
     marriage: no
     maxlevel: 30
   - name: sven
@@ -61,23 +61,25 @@
   - name: J'zargo
     race: Khajiit
     class: mage
-    skills: destruction, illusion, heavy armor, one-handed
+    skills: destruction, illusion, heavy armor, one handed
     marriage: no
     maxlevel: none
   - name: Onmund
     race: nord
     class: mage
-    skills: destruction, illusion, heavy armor, one-handed
+    skills: destruction, illusion, heavy armor, one handed
     marriage: yes
     maxlevel: 30
   - name: Torvar
     race: nord
-    skills: one-handed, heavy armor, block, archery, two-handed
+    class: Unknown
+    skills: one handed, heavy armor, block, archery, two handed
     marriage: yes
     maxlevel: 25
   - name: Vilkas
     race: nord
-    skills: two-handed, heavy armor, block, archery, one-handed
+    class: Unknown
+    skills: two handed, heavy armor, block, archery, one handed
     maxlevel: 50
     marriage: yes
 
@@ -86,7 +88,7 @@
   - name: Argis the Bulwark
     race: nord
     class: warrior
-    skills:
+    skills: Unknown
     marriage: yes
     maxlevel: 50
 
@@ -95,7 +97,7 @@
   - name: Calder
     race: nord
     class: warrior
-    skills: archery, one-handed, block, heavy armor
+    skills: archery, one handed, block, heavy armor
     marriage: yes
     maxlevel: 50
 
@@ -104,7 +106,7 @@
   - name: Gregor
     race: nord
     class: warrior
-    skills: one-handed, heavy armor, block, archery, two-handed
+    skills: one handed, heavy armor, block, archery, two handed
     marriage: yes
     maxlevel: 50
 
@@ -113,34 +115,34 @@
   - name: Iona
     race: nord
     class: warrior
-    skills: one-handed, heavy armor, block
+    skills: one handed, heavy armor, block
     marriage: yes
     maxlevel: 50
 
 - id: solitude
   followers:
-  - name: Jordis the Sword-Maiden
+  - name: Jordis the Sword Maiden
     race: nord
     class: warrior
-    skills: heavy armor, archery, block, one-handed
+    skills: heavy armor, archery, block, one handed
     marriage: yes
-    maxlevel:
+    maxlevel: Unknown
 
 - id: falkreath
   followers:
-  - name      : Rayya
-    race      : redguard
-    class     : warrior
-    skills    : heavy armor, one handed, block, archery
-    marriage  : yes
-    maxlevel  : 50
+  - name: Rayya
+    race: redguard
+    class: warrior
+    skills: heavy armor, one handed, block, archery
+    marriage: yes
+    maxlevel: 50
 
 - id: morthal
   followers:
   - name: Valdimar
     race: nord
     class: sorcerer
-    skills: one-handed, heavy armor, destruction, alteration, restoration
+    skills: one handed, heavy armor, destruction, alteration, restoration
     marriage: yes
     maxlevel: 50
 
