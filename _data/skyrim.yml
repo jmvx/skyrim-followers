@@ -35,18 +35,20 @@
     class: warrior
     skills: heavy armor, one handed, archery, block
     marriage: yes
+    maxlevel: Unknown
 
 - id: riverrun
   followers:
   - name: faendal
     race: bosmer
     class: thief
-    skills: Unknown
+    skills: unknown
     marriage: no
     maxlevel: 30
   - name: sven
     race: nord
     class: bard
+    skills: unknown
     marriage: no
     maxlevel: 20
 
