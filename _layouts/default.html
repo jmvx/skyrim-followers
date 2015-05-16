@@ -15,7 +15,11 @@
     $(document).ready(function(){
         $('#compare').addClass("sortable");
         $(".sortable").sortable({
-            items: "li:not(.row-title)"
+            items: "li:not(.row-title)",
+            axis: "x",
+            revert: true,
+            scroll: false,
+            placeholder: "sortable-placeholder",
         });
         $("li.followers").click(function(){
             if ( !$(this).hasClass("selected") ) {

@@ -134,6 +134,8 @@ button {
     color:white !important;
 }
 
-.ui-sortable-placeholder{
-    display: none !important;
-}
+/*.ui-sortable-placeholder{
+    margin:0px;
+    padding:0px;
+    height:0px;
+}*/
