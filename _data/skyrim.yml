@@ -14,8 +14,8 @@
     skills: heavy armor, one handed
     marriage: yes
     maxlevel: 25
-    image: Aela_the_Huntress.png
-    thumb: Aela_the_Huntress_thumb.jpg
+    image: Athis.png
+    thumb: Athis_thumb.jpg
   - name: Farkas
     race: nord, werewolf
     class: blacksmith
@@ -30,8 +30,8 @@
     skills: Unknown
     marriage: yes
     maxlevel: 25
-    image: Aela_the_Huntress.png
-    thumb: Aela_the_Huntress_thumb.jpg
+    image: Njada_Stonearm.png
+    thumb: Njada_Stonearm_thumb.jpg
   - name: Lydia
     race: nord
     class: warrior
@@ -46,32 +46,40 @@
     skills: heavy armor, one handed, archery, block
     marriage: yes
     maxlevel: Unknown
-    image: Aela_the_Huntress.png
-    thumb: Aela_the_Huntress_thumb.jpg
+    image: Ria.png
+    thumb: Ria_thumb.jpg
   - name: Jenassa
     race: dunmer
     class: ranger
     skills: archery, light armor, block, one handed
     marriage: yes
     maxlevel: 40
+    image: Jenassa.png
+    thumb: Jenassa_thumb.jpg
   - name: faendal
     race: bosmer
     class: thief
     skills: unknown
     marriage: no
     maxlevel: 30
+    image: Faendal.png
+    thumb: Faendal_thumb.jpg
   - name: sven
     race: nord
     class: bard
     skills: unknown
     marriage: no
     maxlevel: 20
+    image: Sven.png
+    thumb: Sven_thumb.jpg
   - name: Erik the Slayer
     race: nord
     class: barbarian
     skills: light armor, two handed, archery, block
     marriage: no
     maxlevel: 40
+    image: Erik_the_Slayer.png
+    thumb: Erik_the_Slayer_thumb.jpg
 
 - id: winterhold
   followers:
@@ -81,30 +89,40 @@
     skills: alteration, illusion, conjuration, sneak
     marriage: yes
     maxlevel: 30
+    image: Brelyna.png
+    thumb: Brelyna_thumb.jpg
   - name: J'zargo
     race: Khajiit
     class: mage
     skills: destruction, illusion, heavy armor, one handed
     marriage: no
     maxlevel: none
+    image: J'zargo.png
+    thumb: J'zargo_thumb.jpg
   - name: Onmund
     race: nord
     class: mage
     skills: destruction, illusion, heavy armor, one handed
     marriage: yes
     maxlevel: 30
+    image: Onmund.png
+    thumb: Onmund_thumb.jpg
   - name: Torvar
     race: nord
     class: Unknown
     skills: one handed, heavy armor, block, archery, two handed
     marriage: yes
     maxlevel: 25
+    image: Torvar.png
+    thumb: Torvar_thumb.jpg
   - name: Vilkas
     race: nord
     class: Unknown
     skills: two handed, heavy armor, block, archery, one handed
     maxlevel: 50
     marriage: yes
+    image: Vilkas.png
+    thumb: Vilkas_thumb.jpg
 
 - id: markarth
   followers:
