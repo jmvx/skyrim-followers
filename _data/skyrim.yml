@@ -1,302 +1,332 @@
-- id: whiterun
-  followers:
-  - name: Aela the Huntress
-    race: nord, werewolf
-    class: ranger
-    skills: Unknown
-    marriage: yes
-    maxlevel: 50
-    image: Aela_the_Huntress.png
-    thumb: Aela_the_Huntress_thumb.jpg
-  - name: Athis
-    race: dunmer
-    class: warrior
-    skills: heavy armor, one handed
-    marriage: yes
-    maxlevel: 25
-    image: Athis.png
-    thumb: Athis_thumb.jpg
-  - name: Farkas
-    race: nord, werewolf
-    class: blacksmith
-    skills: one handed, smithing, heavy armor (trainer)
-    marriage: yes
-    maxlevel: 50
-    image: Farkas.png
-    thumb: Farkas_thumb.jpg
-  - name: Njada Stonearm
-    race: nord
-    class: warrior
-    skills: Unknown
-    marriage: yes
-    maxlevel: 25
-    image: Njada_Stonearm.png
-    thumb: Njada_Stonearm_thumb.jpg
-  - name: Lydia
-    race: nord
-    class: warrior
-    skills: block (trainer), one handed, speech, pickpocket, sneak, smithing
-    marriage: yes
-    maxlevel: 50
-    image: Lydia_Housecarl.png
-    thumb: Lydia_Housecarl_thumb.jpg
-  - name: Ria
-    race: imperial
-    class: warrior
-    skills: heavy armor, one handed, archery, block
-    marriage: yes
-    maxlevel: Unknown
-    image: Ria.png
-    thumb: Ria_thumb.jpg
-  - name: Jenassa
-    race: dunmer
-    class: ranger
-    skills: archery, light armor, block, one handed
-    marriage: yes
-    maxlevel: 40
-    image: Jenassa.png
-    thumb: Jenassa_thumb.jpg
-  - name: faendal
-    race: bosmer
-    class: thief
-    skills: unknown
-    marriage: no
-    maxlevel: 30
-    image: Faendal.png
-    thumb: Faendal_thumb.jpg
-  - name: sven
-    race: nord
-    class: bard
-    skills: unknown
-    marriage: no
-    maxlevel: 20
-    image: Sven.png
-    thumb: Sven_thumb.jpg
-  - name: Erik the Slayer
-    race: nord
-    class: barbarian
-    skills: light armor, two handed, archery, block
-    marriage: no
-    maxlevel: 40
-    image: Erik_the_Slayer.png
-    thumb: Erik_the_Slayer_thumb.jpg
+- id: whiterun hold
+  cities:
+  - location: everywhere
+    followers:
+    - name: Aela the Huntress
+      race: nord, werewolf
+      class: ranger
+      skills: Unknown
+      marriage: yes
+      maxlevel: 50
+      image: Aela_the_Huntress.png
+      thumb: Aela_the_Huntress_thumb.jpg
+    - name: Athis
+      race: dunmer
+      class: warrior
+      skills: heavy armor, one handed
+      marriage: yes
+      maxlevel: 25
+      image: Athis.png
+      thumb: Athis_thumb.jpg
+    - name: Farkas
+      race: nord, werewolf
+      class: blacksmith
+      skills: one handed, smithing, heavy armor (trainer)
+      marriage: yes
+      maxlevel: 50
+      image: Farkas.png
+      thumb: Farkas_thumb.jpg
+    - name: Njada Stonearm
+      race: nord
+      class: warrior
+      skills: Unknown
+      marriage: yes
+      maxlevel: 25
+      image: Njada_Stonearm.png
+      thumb: Njada_Stonearm_thumb.jpg
+    - name: Lydia
+      race: nord
+      class: warrior
+      skills: block (trainer), one handed, speech, pickpocket, sneak, smithing
+      marriage: yes
+      maxlevel: 50
+      image: Lydia_Housecarl.png
+      thumb: Lydia_Housecarl_thumb.jpg
+    - name: Ria
+      race: imperial
+      class: warrior
+      skills: heavy armor, one handed, archery, block
+      marriage: yes
+      maxlevel: Unknown
+      image: Ria.png
+      thumb: Ria_thumb.jpg
+    - name: Jenassa
+      race: dunmer
+      class: ranger
+      skills: archery, light armor, block, one handed
+      marriage: yes
+      maxlevel: 40
+      image: Jenassa.png
+      thumb: Jenassa_thumb.jpg
+    - name: faendal
+      race: bosmer
+      class: thief
+      skills: unknown
+      marriage: no
+      maxlevel: 30
+      image: Faendal.png
+      thumb: Faendal_thumb.jpg
+    - name: sven
+      race: nord
+      class: bard
+      skills: unknown
+      marriage: no
+      maxlevel: 20
+      image: Sven.png
+      thumb: Sven_thumb.jpg
+    - name: Erik the Slayer
+      race: nord
+      class: barbarian
+      skills: light armor, two handed, archery, block
+      marriage: no
+      maxlevel: 40
+      image: Erik_the_Slayer.png
+      thumb: Erik_the_Slayer_thumb.jpg
 
 - id: winterhold
-  followers:
-  - name: Brelyna Maryon
-    race: dunmer
-    class: mage
-    skills: alteration, illusion, conjuration, sneak
-    marriage: yes
-    maxlevel: 30
-    image: Brelyna.png
-    thumb: Brelyna_thumb.jpg
-  - name: J'zargo
-    race: Khajiit
-    class: mage
-    skills: destruction, illusion, heavy armor, one handed
-    marriage: no
-    maxlevel: none
-    image: J'zargo.png
-    thumb: J'zargo_thumb.jpg
-  - name: Onmund
-    race: nord
-    class: mage
-    skills: destruction, illusion, heavy armor, one handed
-    marriage: yes
-    maxlevel: 30
-    image: Onmund.png
-    thumb: Onmund_thumb.jpg
-  - name: Torvar
-    race: nord
-    class: Unknown
-    skills: one handed, heavy armor, block, archery, two handed
-    marriage: yes
-    maxlevel: 25
-    image: Torvar.png
-    thumb: Torvar_thumb.jpg
-  - name: Vilkas
-    race: nord
-    class: Unknown
-    skills: two handed, heavy armor, block, archery, one handed
-    maxlevel: 50
-    marriage: yes
-    image: Vilkas.png
-    thumb: Vilkas_thumb.jpg
+  cities:
+  - location: everywhere
+    followers:
+    - name: Brelyna Maryon
+      race: dunmer
+      class: mage
+      skills: alteration, illusion, conjuration, sneak
+      marriage: yes
+      maxlevel: 30
+      image: Brelyna.png
+      thumb: Brelyna_thumb.jpg
+    - name: J'zargo
+      race: Khajiit
+      class: mage
+      skills: destruction, illusion, heavy armor, one handed
+      marriage: no
+      maxlevel: none
+      image: J'zargo.png
+      thumb: J'zargo_thumb.jpg
+    - name: Onmund
+      race: nord
+      class: mage
+      skills: destruction, illusion, heavy armor, one handed
+      marriage: yes
+      maxlevel: 30
+      image: Onmund.png
+      thumb: Onmund_thumb.jpg
+    - name: Torvar
+      race: nord
+      class: Unknown
+      skills: one handed, heavy armor, block, archery, two handed
+      marriage: yes
+      maxlevel: 25
+      image: Torvar.png
+      thumb: Torvar_thumb.jpg
+    - name: Vilkas
+      race: nord
+      class: Unknown
+      skills: two handed, heavy armor, block, archery, one handed
+      maxlevel: 50
+      marriage: yes
+      image: Vilkas.png
+      thumb: Vilkas_thumb.jpg
 
-- id: markarth
-  followers:
-  - name: Argis the Bulwark
-    race: nord
-    class: warrior
-    skills: Heavy Armor, one handed, Archery, Block
-    marriage: yes
-    maxlevel: 50
-  - name: Vorstag
-    race: nord
-    class: warrior
-    skills: heavy armor, one handed, archery, block
-    marriage: yes
-    maxlevel: 40
+- id: the reach
+  cities:
+  - location: everywhere
+    followers:
+    - name: Argis the Bulwark
+      race: nord
+      class: warrior
+      skills: Heavy Armor, one handed, Archery, Block
+      marriage: yes
+      maxlevel: 50
+      image: Argis_Housecarl.png
+      thumb: Argis_Housecarl_thumb.jpg
+    - name: Vorstag
+      race: nord
+      class: warrior
+      skills: heavy armor, one handed, archery, block
+      marriage: yes
+      maxlevel: 40
+      image: Vorstag.png
+      thumb: Vorstag_thumb.jpg
 
 - id: windhelm
-  followers:
-  - name: Calder
-    race: nord
-    class: warrior
-    skills: archery, one handed, block, heavy armor
-    marriage: yes
-    maxlevel: 50
-  - name: Stenvar
-    race: nord
-    class: warrior
-    skills: heavy armor, two handed, archery, block
-    marriage: yes
-    maxlevel: 40
-  - name: Adelaisa Vendicci
-    race: imperial
-    class: citizen
-    skills: alchemy, enchanting, smithing, archery, light armor, one handed, sneak, speech
-    marriage: no
-    maxlevel: 25
+  cities:
+  - location: everywhere
+    followers:
+    - name: Calder
+      race: nord
+      class: warrior
+      skills: archery, one handed, block, heavy armor
+      marriage: yes
+      maxlevel: 50
+      image: Calder_Housecarl.png
+      thumb: Calder_Housecarl_thumb.jpg
+    - name: Stenvar
+      race: nord
+      class: warrior
+      skills: heavy armor, two handed, archery, block
+      marriage: yes
+      maxlevel: 40
+      image: Stenvar.png
+      thumb: Stenvar_thumb.jpg
+    - name: Adelaisa Vendicci
+      race: imperial
+      class: citizen
+      skills: alchemy, enchanting, smithing, archery, light armor, one handed, sneak, speech
+      marriage: no
+      maxlevel: 25
+      image: Adelaisa_Vendicci.png
+      thumb: Adelaisa_Vendicci_thumb.jpg
 
 - id: dawnstar
-  followers:
-  - name: Gregor
-    race: nord
-    class: warrior
-    skills: one handed, heavy armor, block, archery, two handed
-    marriage: yes
-    maxlevel: 50
-  - name: Cicero
-    race: imperial
-    class: assassin
-    skills: one handed, sneak, light armor, archery
-    marriage: no
-    maxlevel: 50
-  - name: Dark Brotherhood Initiate
-    race: nord
-    class: assassin
-    skills: one handed, sneak, archery, light armor
-    marriage: no
-    maxlevel: none
-  - name: Cicero
-    race: nord
-    class: assassin
-    skills: one handed, sneak, archery, light armor
-    maxlevel: 50
-    marriage: no
-  - name: Dark Brotherhood Initiate
-    race: imperial
-    class: assassin
-    skills: one handed, sneak, archery, light armor
-    marriage: no
-    maxlevel: none
+  cities:
+  - location: everywhere
+    followers:
+    - name: Gregor
+      race: nord
+      class: warrior
+      skills: one handed, heavy armor, block, archery, two handed
+      marriage: yes
+      maxlevel: 50
+      image: Vilkas.png
+      thumb: Vilkas_thumb.jpg
+    - name: Cicero
+      race: imperial
+      class: assassin
+      skills: one handed, sneak, light armor, archery
+      marriage: no
+      maxlevel: 50
+    - name: Dark Brotherhood Initiate
+      race: nord
+      class: assassin
+      skills: one handed, sneak, archery, light armor
+      marriage: no
+      maxlevel: none
+    - name: Cicero
+      race: nord
+      class: assassin
+      skills: one handed, sneak, archery, light armor
+      maxlevel: 50
+      marriage: no
+    - name: Dark Brotherhood Initiate
+      race: imperial
+      class: assassin
+      skills: one handed, sneak, archery, light armor
+      marriage: no
+      maxlevel: none
 
+- id: the rift
+  cities:
+  - location: fort dawnguard
+    followers:
+    - name: Ingjard
+      race: nord
+      class: warrior
+      skills: heavy armor, two handed, block, archery
+      marriage: no
+      maxlevel: none
+    - name: Durak
+      race: orsimer
+      class: ranger
+      skills: archery, light armor, one handed, block
+      marriage: no
+      maxlevel: none
+    - name: Agmaer
+      race: nord
+      class: bandit
+      skills: one handed, two handed, block, light armor
+      marriage: no
+      maxlevel: 25
+    - name: Beleval
+      race: bosmer
+      class: bandit
+      skills: one handed, two handed, block, light armor
+      marriage: no
+      maxlevel: 25
+    - name: Celann
+      race: breton
+      class: warrior
+      skills: heavy armor, one handed, archery, block
+      marriage: no
+      maxlevel: none
+    - name: Serana
+      race: nord, vampire
+      class: vampire
+      skills: sneak, conjuration, light armor, one handed
+      marriage: no
+      maxlevel: 50
+  - location: everywhere
+    followers: 
+    - name: Iona
+      race: nord
+      class: warrior
+      skills: one handed, heavy armor, block
+      marriage: yes
+      maxlevel: 50
+    - name: Marcurio
+      race: imperial
+      class: mage
+      skills: destruction, restoration, alteration, sneak
+      marriage: yes
+      maxlevel: 40
 
-- id: riften
-  followers:
-  - name: Iona
-    race: nord
-    class: warrior
-    skills: one handed, heavy armor, block
-    marriage: yes
-    maxlevel: 50
-  - name: Marcurio
-    race: imperial
-    class: mage
-    skills: destruction, restoration, alteration, sneak
-    marriage: yes
-    maxlevel: 40
+- id: haafingar
+  cities:
+  - location: everywhere
+    followers:
+    - name: Jordis the Sword Maiden
+      race: nord
+      class: warrior
+      skills: heavy armor, archery, block, one handed
+      marriage: yes
+      maxlevel: Unknown
+    - name: Belrand
+      race: nord
+      class: spellsword
+      skills: destruction, light armor, one handed, restoration
+      marriage: yes
+      maxlevel: 40
+    - name: Ahtaar
+      race: redguard
+      class: warrior
+      skills: Heavy Armor, two handed, Archery, Block
+      maxlevel: 30
+      marriage: no
+    - name: Ahtar
+      race: reguard
+      class: warrior
+      skills: heavy armor, two handed, archery, block
+      maxlevel: 30
 
-- id: solitude
-  followers:
-  - name: Jordis the Sword Maiden
-    race: nord
-    class: warrior
-    skills: heavy armor, archery, block, one handed
-    marriage: yes
-    maxlevel: Unknown
-  - name: Belrand
-    race: nord
-    class: spellsword
-    skills: destruction, light armor, one handed, restoration
-    marriage: yes
-    maxlevel: 40
-  - name: Ahtaar
-    race: redguard
-    class: warrior
-    skills: Heavy Armor, two handed, Archery, Block
-    maxlevel: 30
-    marriage: no
-  - name: Ahtar
-    race: reguard
-    class: warrior
-    skills: heavy armor, two handed, archery, block
-    maxlevel: 30
+- id: falkreath hold
+  cities:
+  - location: everywhere
+    followers:
+    - name: Rayya
+      race: redguard
+      class: warrior
+      skills: heavy armor, one handed, block, archery
+      marriage: yes
+      maxlevel: 50
 
-- id: falkreath
-  followers:
-  - name: Rayya
-    race: redguard
-    class: warrior
-    skills: heavy armor, one handed, block, archery
-    marriage: yes
-    maxlevel: 50
+- id: hjaalmarch
+  cities:
+  - location: everywhere
+    followers:
+    - name: Valdimar
+      race: nord
+      class: sorcerer
+      skills: one handed, heavy armor, destruction, alteration, restoration
+      marriage: yes
+      maxlevel: 50
 
-- id: morthal
-  followers:
-  - name: Valdimar
-    race: nord
-    class: sorcerer
-    skills: one handed, heavy armor, destruction, alteration, restoration
-    marriage: yes
-    maxlevel: 50
-
-- id: fort dawnguard
-  followers:
-  - name: Ingjard
-    race: nord
-    class: warrior
-    skills: heavy armor, two handed, block, archery
-    marriage: no
-    maxlevel: none
-  - name: Durak
-    race: orsimer
-    class: ranger
-    skills: archery, light armor, one handed, block
-    marriage: no
-    maxlevel: none
-  - name: Agmaer
-    race: nord
-    class: bandit
-    skills: one handed, two handed, block, light armor
-    marriage: no
-    maxlevel: 25
-  - name: Beleval
-    race: bosmer
-    class: bandit
-    skills: one handed, two handed, block, light armor
-    marriage: no
-    maxlevel: 25
-  - name: Celann
-    race: breton
-    class: warrior
-    skills: heavy armor, one handed, archery, block
-    marriage: no
-    maxlevel: none
-  - name: Serana
-    race: nord, vampire
-    class: vampire
-    skills: sneak, conjuration, light armor, one handed
-    marriage: no
-    maxlevel: 50
-
-- id: raven rock
-  followers:
-  - name: Teldryn Sero
-    race: dunmer
-    class: spellsword
-    skills: one handed, light armor, destruction, conjuration
-    marriage: no
-    maxlevel: 60
+- id: Solstheim
+  cities:
+  - location: everywhere
+    followers:
+    - name: Teldryn Sero
+      race: dunmer
+      class: spellsword
+      skills: one handed, light armor, destruction, conjuration
+      marriage: no
+      maxlevel: 60
