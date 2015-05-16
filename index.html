@@ -5,25 +5,27 @@ description: Skyrim Followers
 <h1>Skyrim Followers</h1>
 <button>Clear Chart</button>
 <p>Click on a name to add it to the comparison chart.</p>
-{% for location in site.data.skyrim %}
-<h2>{{ location.id }}</h2>
-    <ul>
-        {% for follower in location.followers %}
-            <li class="followers">
-                <div class="thumb"><a href="/images/{{follower.image}}"><img src="/images/{{follower.thumb}}" /></a></div>
-                <div class="name">{{ follower.name }}</div>
-                <div class="race">{{ follower.race }}</div>
-                <div class="class">{{ follower.class }}</div>
-                <div class="skills">{{ follower.skills }}</div>
-                <div class="marriage">
-                    {% if follower.marriage == true %}
-                    Yes
-                    {% else %}
-                    No
-                    {% endif %}
-                </div>
-                <div class="maxlevel">{{ follower.maxlevel }}</div>
-            </li>
-        {% endfor %}
-    </ul>
+{% for hold in site.data.skyrim %}
+    {% for loc in hold.cities %}
+    <h2>{{ hold.id }}</h2>
+    <h3>{{ loc.location }}</h3>
+    {% for follower in loc.followers %}
+        <li class="followers">
+            <div class="thumb"><a href="/images/{{follower.image}}"><img src="/images/{{follower.thumb}}" /></a></div>
+            <div class="name">{{ follower.name }}</div>
+            <div class="location">{{ loc.location }}</div>
+            <div class="race">{{ follower.race }}</div>
+            <div class="class">{{ follower.class }}</div>
+            <div class="skills">{{ follower.skills }}</div>
+            <div class="marriage">
+                {% if follower.marriage == true %}
+                Yes
+                {% else %}
+                No
+                {% endif %}
+            </div>
+            <div class="maxlevel">{{ follower.maxlevel }}</div>
+        </li>
+    {% endfor %}
+    {% endfor %}
 {% endfor %}
