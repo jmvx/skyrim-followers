@@ -48,6 +48,15 @@
     maxlevel: Unknown
     image: Aela_the_Huntress.png
     thumb: Aela_the_Huntress_thumb.jpg
+  - name: Jenassa
+    race: dunmer
+    class: ranger
+    skills: archery, light armor, block, one-handed
+    marriage: yes
+    maxlevel: 40
+
+- id: riverrun
+  followers:
   - name: faendal
     race: bosmer
     class: thief
@@ -60,6 +69,16 @@
     skills: unknown
     marriage: no
     maxlevel: 20
+
+- id: rorikstead
+  followers:
+  - name: Erik the Slayer
+    race: nord
+    class: barbarian
+    skills: light armor, two-handed, archery, block
+    marriage: no
+    maxlevel: 40
+
 
 - id: winterhold
   followers:
@@ -99,9 +118,17 @@
   - name: Argis the Bulwark
     race: nord
     class: warrior
-    skills: Unknown
+    skills: Heavy Armor, One-handed, Archery, Block
     marriage: yes
     maxlevel: 50
+
+- name: Vorstag
+  race: nord
+  class: warrior
+  skills: heavy armor, one-handed, archery, block
+  marriage: yes
+  maxlevel: 40
+
 
 - id: windhelm
   followers:
@@ -111,6 +138,13 @@
     skills: archery, one handed, block, heavy armor
     marriage: yes
     maxlevel: 50
+
+  - name: Stenvar
+    race: nord
+    class: warrior
+    skills: heavy armor, two-handed, archery, block
+    marriage: yes
+    maxlevel: 40
 
 - id: dawnstar
   followers:
@@ -133,6 +167,21 @@
     marriage: no
     maxlevel: none
 
+  - name: Cicero
+    race: nord
+    class: assassin
+    skills: one-handed, sneak, archery, light armor
+    maxlevel: 50
+    marriage: no
+
+  - name: Dark Brotherhood Initiaete
+    race: imperial
+    class: assassin
+    skills: one-handed, sneak, archery, light armor
+    maxlevel: none
+    marriage: no
+
+
 - id: riften
   followers:
   - name: Iona
@@ -141,6 +190,14 @@
     skills: one handed, heavy armor, block
     marriage: yes
     maxlevel: 50
+
+  - name: Marcurio
+    race: imperial
+    class: mage
+    skills: destruction, restoration, alteration, sneak
+    marriage: yes
+    maxlevel: 40
+
 
 - id: solitude
   followers:
@@ -175,6 +232,27 @@
     marriage:
     maxlevel:
   - name: 
+
+  - name: Belrand
+    race: nord
+    class: spellsword
+    skills: destruction, light armor, one-handed, restoration
+    marriage: yes
+    maxlevel: 40
+
+  - name: Adelaisa Vendicci
+    race: imperial
+    class: citizen
+    skills: Alchemy, Enchanting, Smithing, Archery, Light Armor, One-handed, Sneak, Speech
+    maxlevel: 25
+    marriage: no
+
+  - name: Ahtaar
+    race: redguard
+    class: warrior
+    skills: Heavy Armor, Two-handed, Archery, Block
+    maxlevel: 30
+    marriage: no
 
 - id: falkreath
   followers:
@@ -233,3 +311,54 @@
       marriage: no
       maxlevel: 50
 
+- id: fort dawnguard
+  followers:
+  - name: Ingjard
+    race: nord
+    class: warrior
+    skills: heavy armor, two-handed, block, archery
+    marriage: no
+    maxlevel: none
+    expansion: dawnguard
+
+  - name: Durak
+    race: orsimer
+    class: ranger
+    skills: archery, light armor, one-handed, block
+    marriage: no
+    maxlevel: none
+    expansion: dawnguard
+
+  - name: Agmaer
+    race: nord
+    class: bandit
+    skills: one-handed, two-handed, block, light armor
+    marriage: no
+    maxlevel: 25
+    expansion: dawnguard
+
+  - name: Beleval
+    race: bosmer
+    class: bandit
+    skills: one-handed, two-handed, block, light armor
+    marriage: no
+    maxlevel: 25
+    expansion: dawnguard
+
+  - name: Celann
+    race: breton
+    class: warrior
+    skills: heavy armor, one-handed, archery, block
+    marriage: no
+    maxlevel: none
+    expansion: dawnguard
+
+- id: raven rock
+  followers:
+  - name: Teldryn Sero
+    race: dunmer
+    class: spellsword
+    skills: one-handed, light armor, destruction, conjuration
+    marriage:no
+    maxlevel: 60
+    expansion: dragonborn
