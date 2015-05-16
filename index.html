@@ -10,6 +10,7 @@ description: Skyrim Followers
     <ul>
         {% for follower in location.followers %}
             <li class="followers">
+                <div class="thumb"><a href="/images/{{follower.image}}"><img src="/images/{{follower.thumb}}" /></a></div>
                 <div class="name">{{ follower.name }}</div>
                 <div class="race">{{ follower.race }}</div>
                 <div class="class">{{ follower.class }}</div>

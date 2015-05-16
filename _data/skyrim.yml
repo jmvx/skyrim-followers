@@ -6,18 +6,24 @@
     skills: Unknown
     marriage: yes
     maxlevel: 50
+    image: Aela_the_Huntress.png
+    thumb: Aela_the_Huntress_thumb.jpg
   - name: Athis
     race: dunmer
     class: warrior
     skills: heavy armor, one handed
     marriage: yes
     maxlevel: 25
+    image: Aela_the_Huntress.png
+    thumb: Aela_the_Huntress_thumb.jpg
   - name: Farkas
     race: nord, werewolf
     class: blacksmith
     skills: one handed, smithing, heavy armor (trainer)
     marriage: yes
     maxlevel: 50
+    image: Farkas.png
+    thumb: Farkas_thumb.jpg
   - name: Njada Stonearm
     race: nord
     class: warrior

@@ -1,17 +1,21 @@
 body, html {
     background-color:black;
-    color:white;
+    color:#c0c0c0;
     margin:0;
     padding:0;
-    color:#c0c0c0;
 }
 
 h1, h2, p {
     margin:10px 0 10px 0;
 }
 
+button {
+    background-color: #c0c0c0;
+    color:black;
+}
+
 h1, h2 {
-    color:white;
+    color:#c0c0c0;
     text-align:center;
 }
 
@@ -32,22 +36,41 @@ p {
 
 #compare {
     white-space:nowrap;
-    margin-left:180px;
+    margin-left:240px;
+    margin-top:0px;
 }
 
 #compare li {
     width:100px;
     padding:10px;
     display:inline-block;
+}
+
+#compare li {
     border-right:1px solid rgb(66,66,76);
+}
+
+#compare li.row-title:first-child {
+    padding-top:103px;
 }
 
 #compare li > div:last-child {
     height:25px !important;
 }
 
+div.thumb {
+    overflow:hidden !important;
+    height:75px !important;
+    text-align:center;
+    margin-bottom:20px;
+}
+
 #compare li.followers {
     cursor:move;
+}
+
+#compare li > div, li.row-title > div {
+    height:100px;
 }
 
 li.followers {
@@ -69,6 +92,7 @@ li.row-title {
     bottom:0;
     height:100%;
     width:200px;
+    border-right:1px solid rgb(66,66,76);
 }
 
 #masterlist li.followers {
@@ -90,15 +114,11 @@ li.row-title {
     margin:0;
 }
 
-#compare li > div, li.row-title > div {
-    height:100px;
-}
-
 #masterlist li > div {
     display:none;
 }
 
-#masterlist li > div:first-child {
+#masterlist li > div.name {
     display:block;
 }
 
