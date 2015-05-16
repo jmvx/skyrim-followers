@@ -30,18 +30,24 @@
     skills: Unknown
     marriage: yes
     maxlevel: 25
+    image: Aela_the_Huntress.png
+    thumb: Aela_the_Huntress_thumb.jpg
   - name: Lydia
     race: nord
     class: warrior
     skills: block (trainer), one handed, speech, pickpocket, sneak, smithing
     marriage: yes
     maxlevel: 50
+    image: Lydia_Housecarl.png
+    thumb: Lydia_Housecarl_thumb.jpg
   - name: Ria
     race: imperial
     class: warrior
     skills: heavy armor, one handed, archery, block
     marriage: yes
     maxlevel: Unknown
+    image: Aela_the_Huntress.png
+    thumb: Aela_the_Huntress_thumb.jpg
 
 - id: riverrun
   followers:
@@ -117,6 +123,18 @@
     skills: one handed, heavy armor, block, archery, two handed
     marriage: yes
     maxlevel: 50
+  - name: Cicero
+    race: imperial
+    class: assassin
+    skills: one handed, sneak, light armor, archery
+    marriage: no
+    maxlevel: 50
+  - name: Dark Brotherhood Initiate
+    race: nord
+    class: assassin
+    skills: one handed, sneak, archery, light armor
+    marriage: no
+    maxlevel: none
 
 - id: riften
   followers:
@@ -135,6 +153,10 @@
     skills: heavy armor, archery, block, one handed
     marriage: yes
     maxlevel: Unknown
+  - name: Belrand
+    race: nord
+    class: spellsword
+    skills: destruction, light armor, one handed
 
 - id: falkreath
   followers:
@@ -152,5 +174,44 @@
     class: sorcerer
     skills: one handed, heavy armor, destruction, alteration, restoration
     marriage: yes
+    maxlevel: 50
+  
+ - id: fort dawnguard
+   followers:
+   - name: Ingjard
+     race: nord
+     class: warrior
+     skills: heavy armor, two handed, archery, block
+     marriage: no
+     maxlevel: none
+  - name: Agmaer
+    race: nord
+    class: bandit
+    skills: one handed, two handed, block, light armor
+    marriage: no
+    maxlevel: 25
+  - name: Beleval
+    race: bosmer
+    class: bandit
+    skills: one handed, two handed, block, light armor
+    marriage: no
+    maxlevel: 25
+  - name: Celann
+    race: breton
+    class: warrior
+    skills: heavy armor, one handed, archery, block
+    marriage: no
+    maxlevel: none
+  - name: Durak
+    race: orc
+    class: ranger
+    skills: archery, light armor, block, one handed
+    marriage: no
+    maxlevel: none
+  - name: Serana
+    race: nord, vampire
+    class: vampire
+    skills: sneak, conjuration, light armor, one handed
+    marriage: no
     maxlevel: 50
 
