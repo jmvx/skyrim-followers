@@ -74,6 +74,12 @@
       marriage: yes
       image: Vilkas.png
       thumb: Vilkas_thumb.jpg
+    - name: Uthgerd the Unbroken
+      race: nord
+      class: warrior
+      skills: heavy armor, one handed, archery, block
+      marriage: yes
+      maxlevel: 30
   - location: Riverwood
     followers:
     - name: faendal
@@ -102,6 +108,14 @@
       maxlevel: 40
       image: Erik_the_Slayer.png
       thumb: Erik_the_Slayer_thumb.jpg
+  - location: Hillgrund's Tomb
+    followers:
+    - name: Golldir
+      race: nord
+      class: warrior
+      skills: heavy armor, one handed, archery, block
+      marriage: no
+      maxlevel: 30
 
 - id: winterhold
   cities:
@@ -166,6 +180,20 @@
       skills: destruction, sneak, alteration, one handed
       marriage: no
       maxlevel: 30
+    - name: Cosnach
+      race: breton
+      class: warrior
+      skills: heavy armor, one handed, archery, block
+      marriage: yes
+      maxlevel: 30
+  - location: Dushnikh Yal
+    followers:
+    - name: Ghorbash the Iron Hand
+      race: orc
+      class: ranger
+      skills: archery, light armor, block, one handed
+      marriage: yes
+      maxlevel: 30
 
 - id: eastmarch
   cities:
@@ -195,7 +223,7 @@
       maxlevel: 25
       image: Adelaisa_Vendicci.png
       thumb: Adelaisa_Vendicci_thumb.jpg
-  - location: darkwater crossing
+  - location: darkwater crossing/pass
     followers:
     - name: Annekke Crag-Jumper
       race: nord
@@ -203,6 +231,20 @@
       skills: archery, light armor, block, one handed
       marriage: no
       maxlevel: 30
+    - name: derkeethus
+      race: argonian
+      class: ranger
+      skills: archery, light armor, block, one handed
+      marriage: yes
+      maxlevel: 30
+  - location: Kynesgrove
+    followers:
+    - name: Roggi Knot-Beard
+      race: nord
+      class: miner
+      skills: alchemy, enchanting, smithing, archery, one handed, two handed
+      marriage: yes
+      maxlevel: 20
 
 - id: dawnstar
   cities:
@@ -289,7 +331,37 @@
       skills: destruction, restoration, alteration, sneak
       marriage: yes
       maxlevel: 40
-
+    - name: Kharjo
+      race: Khajiit
+      class: warrior
+      skills: heavy armor, one handed, archery, block
+      marriage: no
+      maxlevel: 30
+  - location: Darklight Tower
+    followers:
+    - name: illia
+      race: imperial
+      class: mage
+      skills: destruction, restoration, alteration, conjuration
+      marriage: no
+      maxlevel: 40
+  - location: Largashbur
+    followers:
+    - name: lob
+      race: orc
+      class: warrior
+      skills: archery, light armor, block, one handed
+      marriage: no
+      maxlevel: 30
+    - name: Ugor
+      race: orc
+      class: ranger
+      skills: archery, light armor, block, one handed
+      marriage: no
+      maxlevel: 30
+    
+    
+    
 - id: haafingar
   cities:
   - location: Solitude
@@ -317,8 +389,16 @@
       skills: Heavy Armor, two handed, Archery, Block
       maxlevel: 30
       marriage: no
+  - location: Mor Khazgur
+    followers:
+    - name: Borgakh the Steel Heart
+      race: orc
+      class: warrior
+      skills: heavy armor, one handed, archery, sneak
+      marriage: yes
+      maxlevel: 30
 
-- id: falkreath hold
+- id: falkreath
   cities:
   - location: falkreath
     followers:
@@ -339,6 +419,12 @@
       skills: one handed, heavy armor, destruction, alteration, restoration
       marriage: yes
       maxlevel: 50
+    - name: Benor
+      race: nord
+      class: warrior
+      skills: heavy armor, two handed, archery, block
+      marriage: yes
+      maxlevel: 30
 
 - id: Solstheim
   cities:
@@ -350,3 +436,27 @@
       skills: one handed, light armor, destruction, conjuration
       marriage: no
       maxlevel: 60
+  - location: Skaal Village
+    followers:
+    - name: Frea
+      race: nord
+      class: warrior
+      skills: one handed, alteration, light armor, restoration
+      marriage: no
+      maxlevel: none
+  - location: Kolbjorn Barrow
+    followers:
+    - name: Ralis Sedarys
+      race: dunmer
+      class: rogue
+      skills: one handed, light armor, block, sneak
+      marriage: no
+      maxlevel: 60
+  - location: Tel Mithryn
+    followers:
+    - name: Talvas Fathryon
+      race: dunmer
+      class: conjurer
+      skills: conjuration, restoration, destruction, alteration, sneak
+      marriage: no
+      maxlevel: 25
