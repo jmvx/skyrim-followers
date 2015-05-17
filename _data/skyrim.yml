@@ -1,6 +1,6 @@
-- id: whiterun hold
+- id: whiterun
   cities:
-  - location: everywhere
+  - location: Whiterun
     followers:
     - name: Aela the Huntress
       race: nord, werewolf
@@ -58,6 +58,24 @@
       maxlevel: 40
       image: Jenassa.png
       thumb: Jenassa_thumb.jpg
+    - name: Torvar
+      race: nord
+      class: Unknown
+      skills: one handed, heavy armor, block, archery, two handed
+      marriage: yes
+      maxlevel: 25
+      image: Torvar.png
+      thumb: Torvar_thumb.jpg
+    - name: Vilkas
+      race: nord
+      class: Unknown
+      skills: two handed, heavy armor, block, archery, one handed
+      maxlevel: 50
+      marriage: yes
+      image: Vilkas.png
+      thumb: Vilkas_thumb.jpg
+  - location: Riverwood
+    followers:
     - name: faendal
       race: bosmer
       class: thief
@@ -74,6 +92,8 @@
       maxlevel: 20
       image: Sven.png
       thumb: Sven_thumb.jpg
+  - location: Rorikstead
+    followers:
     - name: Erik the Slayer
       race: nord
       class: barbarian
@@ -85,7 +105,7 @@
 
 - id: winterhold
   cities:
-  - location: everywhere
+  - location: College of Winterhold
     followers:
     - name: Brelyna Maryon
       race: dunmer
@@ -111,26 +131,18 @@
       maxlevel: 30
       image: Onmund.png
       thumb: Onmund_thumb.jpg
-    - name: Torvar
-      race: nord
-      class: Unknown
-      skills: one handed, heavy armor, block, archery, two handed
-      marriage: yes
-      maxlevel: 25
-      image: Torvar.png
-      thumb: Torvar_thumb.jpg
-    - name: Vilkas
-      race: nord
-      class: Unknown
-      skills: two handed, heavy armor, block, archery, one handed
-      maxlevel: 50
-      marriage: yes
-      image: Vilkas.png
-      thumb: Vilkas_thumb.jpg
+  - location: Shrine of Azura
+    followers:
+    - name: Aranea Lenith
+      race: dunmer
+      class: mage
+      skills: destruction, restoration, alteration, conjuration
+      marriage: no
+      maxlevel: 30
 
 - id: the reach
   cities:
-  - location: everywhere
+  - location: Markarth
     followers:
     - name: Argis the Bulwark
       race: nord
@@ -148,10 +160,16 @@
       maxlevel: 40
       image: Vorstag.png
       thumb: Vorstag_thumb.jpg
+    - name: Eola
+      race: breton
+      class: nightblade
+      skills: destruction, sneak, alteration, one handed
+      marriage: no
+      maxlevel: 30
 
-- id: windhelm
+- id: eastmarch
   cities:
-  - location: everywhere
+  - location: windhelm
     followers:
     - name: Calder
       race: nord
@@ -177,10 +195,18 @@
       maxlevel: 25
       image: Adelaisa_Vendicci.png
       thumb: Adelaisa_Vendicci_thumb.jpg
+  - location: darkwater crossing
+    followers:
+    - name: Annekke Crag-Jumper
+      race: nord
+      class: ranger
+      skills: archery, light armor, block, one handed
+      marriage: no
+      maxlevel: 30
 
 - id: dawnstar
   cities:
-  - location: everywhere
+  - location: dawnstar
     followers:
     - name: Gregor
       race: nord
@@ -202,18 +228,12 @@
       skills: one handed, sneak, archery, light armor
       marriage: no
       maxlevel: none
-    - name: Cicero
-      race: nord
-      class: assassin
-      skills: one handed, sneak, archery, light armor
+    - name: Erandur
+      race: dunmer
+      class: priest
+      skills: restoration, speech, alchemy, conjuration, smithing
+      marriage: no
       maxlevel: 50
-      marriage: no
-    - name: Dark Brotherhood Initiate
-      race: imperial
-      class: assassin
-      skills: one handed, sneak, archery, light armor
-      marriage: no
-      maxlevel: none
 
 - id: the rift
   cities:
@@ -255,7 +275,7 @@
       skills: sneak, conjuration, light armor, one handed
       marriage: no
       maxlevel: 50
-  - location: everywhere
+  - location: riften
     followers: 
     - name: Iona
       race: nord
@@ -272,8 +292,13 @@
 
 - id: haafingar
   cities:
-  - location: everywhere
+  - location: Solitude
     followers:
+    - name: Ahtar
+      race: reguard
+      class: warrior
+      skills: heavy armor, two handed, archery, block
+      maxlevel: 30
     - name: Jordis the Sword Maiden
       race: nord
       class: warrior
@@ -286,21 +311,16 @@
       skills: destruction, light armor, one handed, restoration
       marriage: yes
       maxlevel: 40
-    - name: Ahtaar
+    - name: Ahtar
       race: redguard
       class: warrior
       skills: Heavy Armor, two handed, Archery, Block
       maxlevel: 30
       marriage: no
-    - name: Ahtar
-      race: reguard
-      class: warrior
-      skills: heavy armor, two handed, archery, block
-      maxlevel: 30
 
 - id: falkreath hold
   cities:
-  - location: everywhere
+  - location: falkreath
     followers:
     - name: Rayya
       race: redguard
@@ -311,7 +331,7 @@
 
 - id: hjaalmarch
   cities:
-  - location: everywhere
+  - location: morthal
     followers:
     - name: Valdimar
       race: nord
@@ -322,7 +342,7 @@
 
 - id: Solstheim
   cities:
-  - location: everywhere
+  - location: raven rock
     followers:
     - name: Teldryn Sero
       race: dunmer
