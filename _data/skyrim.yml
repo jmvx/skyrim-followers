@@ -5,7 +5,7 @@
     - name: Aela the Huntress
       race: nord, werewolf
       class: ranger
-      skills: Unknown
+      skills: archery (expert trainer), light armor, sneak, one handed, speech
       marriage: yes
       maxlevel: 50
       image: Aela_the_Huntress.png
@@ -13,7 +13,7 @@
     - name: Athis
       race: dunmer
       class: warrior
-      skills: heavy armor, one handed
+      skills: heavy armor, one handed (expert trainer)
       marriage: yes
       maxlevel: 25
       image: Athis.png
@@ -21,7 +21,7 @@
     - name: Farkas
       race: nord, werewolf
       class: blacksmith
-      skills: one handed, smithing, heavy armor (trainer)
+      skills: one handed, smithing, heavy armor (master trainer)
       marriage: yes
       maxlevel: 50
       image: Farkas.png
@@ -29,7 +29,7 @@
     - name: Njada Stonearm
       race: nord
       class: warrior
-      skills: Unknown
+      skills: block (expert trainer), one handed, speech, pickpocket
       marriage: yes
       maxlevel: 25
       image: Njada_Stonearm.png
@@ -69,7 +69,7 @@
     - name: Vilkas
       race: nord
       class: Unknown
-      skills: two handed, heavy armor, block, archery, one handed
+      skills: two handed (master trainer), heavy armor, block, archery, one handed
       maxlevel: 50
       marriage: yes
       image: Vilkas.png
@@ -85,7 +85,7 @@
     - name: faendal
       race: bosmer
       class: thief
-      skills: unknown
+      skills: archery (adept trainer), light armor, sneak, one handed, speech
       marriage: no
       maxlevel: 30
       image: Faendal.png
@@ -186,6 +186,12 @@
       skills: heavy armor, one handed, archery, block
       marriage: yes
       maxlevel: 30
+    - name: Vigilance
+      race: "non-human"
+      class: dog
+      skills: unknown
+      marriage: no
+      maxlevel: 50
   - location: Dushnikh Yal
     followers:
     - name: Ghorbash the Iron Hand
@@ -317,6 +323,24 @@
       skills: sneak, conjuration, light armor, one handed
       marriage: no
       maxlevel: 50
+    - name: Armored Troll
+      race: "non-human"
+      class: troll
+      skills: Unknown
+      marriage: no
+      maxlevel: 14-22
+    - name: Bran
+      race: "non-human"
+      class: dog
+      skills: unknown
+      marriage: no
+      maxlevel: 25
+    - name: Sceolang
+      race: "non-human"
+      class: dog
+      skills: unknown
+      marriage: no
+      maxlevel: 25
   - location: riften
     followers: 
     - name: Iona
@@ -360,8 +384,6 @@
       marriage: no
       maxlevel: 30
     
-    
-    
 - id: haafingar
   cities:
   - location: Solitude
@@ -397,6 +419,20 @@
       skills: heavy armor, one handed, archery, sneak
       marriage: yes
       maxlevel: 30
+  - location: Castle Volkihar
+    followers:
+    - name: cusith
+      race: "non-human"
+      class: death hound
+      skills: unknown
+      marriage: no
+      maxlevel: 5
+    - name: garmr
+      race: "non-human"
+      class: death hound
+      skills: unknown
+      marriage: no
+      maxlevel: 5
 
 - id: falkreath
   cities:
@@ -407,6 +443,20 @@
       class: warrior
       skills: heavy armor, one handed, block, archery
       marriage: yes
+      maxlevel: 50
+    - name: Barbas
+      race: "non-human"
+      class: dog
+      skills: unknown
+      marriage: no
+      maxlevel: 45
+  - location: Dark Brotherhood Sanctuary
+    followers:
+    - name: Shadowmere
+      race: "non-human"
+      class: horse
+      skills: unknown
+      marriage: no
       maxlevel: 50
 
 - id: hjaalmarch
@@ -425,6 +475,14 @@
       skills: heavy armor, two handed, archery, block
       marriage: yes
       maxlevel: 30
+  - location: meeko's shack
+    followers:
+    - name: Meeko
+      race: "non-human"
+      class: dog
+      skills: unknown
+      marriage: no
+      maxlevel: 25
 
 - id: Solstheim
   cities:
@@ -444,6 +502,12 @@
       skills: one handed, alteration, light armor, restoration
       marriage: no
       maxlevel: none
+    - name: Riekling Warrior
+      race: Riekling
+      class: warrior
+      skills: unknown
+      marriage: no
+      maxlevel: 23
   - location: Kolbjorn Barrow
     followers:
     - name: Ralis Sedarys
@@ -457,6 +521,20 @@
     - name: Talvas Fathryon
       race: dunmer
       class: conjurer
-      skills: conjuration, restoration, destruction, alteration, sneak
+      skills: conjuration (master trainer), restoration, destruction, alteration, sneak
       marriage: no
       maxlevel: 25
+  - location: Kagrumez
+    followers:
+    - name: Steadfast Dwarven Sphere
+      race: "non-human"
+      class: dwarven sphere
+      skills: unknown
+      marriage: no
+      maxlevel: 30
+    - name: Steadfast Dwarven Spider
+      race: "non-human"
+      class: dwarven spider
+      skills: unknown
+      marriage: no
+      maxlevel: 16
