@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% if page.description %}
+        <meta name="description" content="{{ page.description }}">
+        {% endif %}
+        <link rel="stylesheet" href="style.css" type="text/css" charset="utf-8">
+        <script src="skyrim.js" type="text/javascript">
+        <title>{{ page.title }}</title>
+    </head>
+
+    <body>
+        <div id="container">
+            <div id="masterlist">
+                {{ content }}
+            </div>
+            <ul id="compare">
+                <li class="row-title">
+                    <div>Name</div>
+                    <div>Location</div>
+                    <div>Race</div>
+                    <div>Class</div>
+                    <div>Skills</div>
+                    <div>Marriage</div>
+                    <div>Max Level</div>
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>
