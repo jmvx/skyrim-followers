@@ -284,14 +284,14 @@
       maxlevel: 50
       image: Vilkas.png
       thumb: Vilkas_thumb.jpg
-    - name: Cicero
+    - name: Cicerio
       race: imperial
       class: assassin
       skills: one handed, sneak, light armor, archery
       marriage: no
       maxlevel: 50
-      image: Cicero.png
-      thumb: Cicero_thumb.jpg
+      image: Cicerio.png
+      thumb: Cicerio_thumb.jpg
     - name: Dark Brotherhood Initiate
       race: nord
       class: assassin
@@ -376,7 +376,7 @@
       marriage: no
       maxlevel: 25
       image: Bran.png
-      thumb: Bran_thumb.jpb
+      thumb: Bran_thumb.jpg
     - name: Sceolang
       race: "non-human"
       class: dog
