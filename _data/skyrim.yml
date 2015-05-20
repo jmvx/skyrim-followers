@@ -80,6 +80,8 @@
       skills: heavy armor, one handed, archery, block
       marriage: yes
       maxlevel: 30
+      image: Uthgerd_the_Unbroken.png
+      thumb: Uthgerd_the_Unbroken_thumb.jpg
   - location: Riverwood
     followers:
     - name: faendal
@@ -116,6 +118,8 @@
       skills: heavy armor, one handed, archery, block
       marriage: no
       maxlevel: 30
+      image: Golldir.png
+      thumb: Golldir_thumb.jpg
 
 - id: winterhold
   cities:
@@ -153,6 +157,8 @@
       skills: destruction, restoration, alteration, conjuration
       marriage: no
       maxlevel: 30
+      image: Aranea.png
+      thumb: Aranea_thumb.jpg
 
 - id: the reach
   cities:
@@ -180,18 +186,24 @@
       skills: destruction, sneak, alteration, one handed
       marriage: no
       maxlevel: 30
+      image: Eola2.jpg
+      thumb: Eola2_thumb.jpg
     - name: Cosnach
       race: breton
       class: warrior
       skills: heavy armor, one handed, archery, block
       marriage: yes
       maxlevel: 30
+      image: Cosnach.png
+      thumb: Cosnach_thumb.jpg
     - name: Vigilance
       race: "non-human"
       class: dog
       skills: unknown
       marriage: no
       maxlevel: 50
+      image: Vigilance.png
+      thumb: Vigilance_thumb.jpg
   - location: Dushnikh Yal
     followers:
     - name: Ghorbash the Iron Hand
@@ -200,6 +212,8 @@
       skills: archery, light armor, block, one handed
       marriage: yes
       maxlevel: 30
+      image: Ghorbash_the_Iron_Hand.png
+      thumb: Ghorbash_the_Iron_Hand_thumb.jpg
 
 - id: eastmarch
   cities:
@@ -231,26 +245,32 @@
       thumb: Adelaisa_Vendicci_thumb.jpg
   - location: darkwater crossing/pass
     followers:
-    - name: Annekke Crag-Jumper
+    - name: "Annekke Crag-Jumper"
       race: nord
       class: ranger
       skills: archery, light armor, block, one handed
       marriage: no
       maxlevel: 30
+      image: "Annekke_Crag-Jumper.png"
+      thumb: Annekke_Crag-Jumper_thumb.jpg
     - name: derkeethus
       race: argonian
       class: ranger
       skills: archery, light armor, block, one handed
       marriage: yes
       maxlevel: 30
+      image: Derkeethus.png
+      thumb: Derkeethus_thumb.jpg
   - location: Kynesgrove
     followers:
-    - name: Roggi Knot-Beard
+    - name: "Roggi Knot-Beard"
       race: nord
       class: miner
       skills: alchemy, enchanting, smithing, archery, one handed, two handed
       marriage: yes
       maxlevel: 20
+      image: "Roggi_Knot-Beard.png"
+      thumb: "Roggi_Knot-Beard_thumb.jpg"
 
 - id: dawnstar
   cities:
@@ -270,18 +290,24 @@
       skills: one handed, sneak, light armor, archery
       marriage: no
       maxlevel: 50
+      image: Cicero.png
+      thumb: Cicero_thumb.jpg
     - name: Dark Brotherhood Initiate
       race: nord
       class: assassin
       skills: one handed, sneak, archery, light armor
       marriage: no
       maxlevel: none
+      image: Dark_Brotherhood_Initiate_Male.png
+      thumb: Dark_Brotherhood_Initiate_Male_thumb.jpg
     - name: Erandur
       race: dunmer
       class: priest
       skills: restoration, speech, alchemy, conjuration, smithing
       marriage: no
       maxlevel: 50
+      image: Erandur.png
+      thumb: Erandur_thumb.jpg
 
 - id: the rift
   cities:
@@ -293,54 +319,72 @@
       skills: heavy armor, two handed, block, archery
       marriage: no
       maxlevel: none
+      image: Ingjard.png
+      thumb: Ingjard_thumb.jpg
     - name: Durak
       race: orsimer
       class: ranger
       skills: archery, light armor, one handed, block
       marriage: no
       maxlevel: none
+      image: Durak_03.png
+      thumb: Durak_03_thumb.jpg
     - name: Agmaer
       race: nord
       class: bandit
       skills: one handed, two handed, block, light armor
       marriage: no
       maxlevel: 25
+      image: Agmaer1.png
+      thumb: Agmaer1_thumb.jpg
     - name: Beleval
       race: bosmer
       class: bandit
       skills: one handed, two handed, block, light armor
       marriage: no
       maxlevel: 25
+      image: Beleval.png
+      thumb: Beleval_thumb.jpg
     - name: Celann
       race: breton
       class: warrior
       skills: heavy armor, one handed, archery, block
       marriage: no
       maxlevel: none
+      image: Celann.png
+      thumb: Celann_thumb.jpg
     - name: Serana
       race: nord, vampire
       class: vampire
       skills: sneak, conjuration, light armor, one handed
       marriage: no
       maxlevel: 50
+      image: Serana_1.png
+      thumb: Serana_1_thumb.jpg
     - name: Armored Troll
       race: "non-human"
       class: troll
       skills: Unknown
       marriage: no
       maxlevel: 14-22
+      image: ArmoredTroll.png
+      thumb: ArmoredTroll_thumb.jpg
     - name: Bran
       race: "non-human"
       class: dog
       skills: unknown
       marriage: no
       maxlevel: 25
+      image: Bran.png
+      thumb: Bran_thumb.jpb
     - name: Sceolang
       race: "non-human"
       class: dog
       skills: unknown
       marriage: no
       maxlevel: 25
+      image: Sceolang.png
+      thumb: Sceolang_thumb.jpg
   - location: riften
     followers: 
     - name: Iona
@@ -349,18 +393,24 @@
       skills: one handed, heavy armor, block
       marriage: yes
       maxlevel: 50
+      image: Iona_Housecarl.png
+      thumb: Iona_Housecarl_thumb.jpg
     - name: Marcurio
       race: imperial
       class: mage
       skills: destruction, restoration, alteration, sneak
       marriage: yes
       maxlevel: 40
+      image: Marcurio.png
+      thumb: Marcurio_thumb.jpg
     - name: Kharjo
       race: Khajiit
       class: warrior
       skills: heavy armor, one handed, archery, block
       marriage: no
       maxlevel: 30
+      image: Kharjo.png
+      thumb: Kharjo_thumb.jpg
   - location: Darklight Tower
     followers:
     - name: illia
@@ -369,6 +419,8 @@
       skills: destruction, restoration, alteration, conjuration
       marriage: no
       maxlevel: 40
+      image: Illia.png
+      thumb: Illia_thumb.jpg
   - location: Largashbur
     followers:
     - name: lob
@@ -377,40 +429,45 @@
       skills: archery, light armor, block, one handed
       marriage: no
       maxlevel: 30
+      image: Lob.png
+      thumb: Lob_thumb.jpg
     - name: Ugor
       race: orc
       class: ranger
       skills: archery, light armor, block, one handed
       marriage: no
       maxlevel: 30
+      image: Ugor.png
+      thumb: Ugor_thumb.jpg
     
 - id: haafingar
   cities:
   - location: Solitude
     followers:
-    - name: Ahtar
-      race: reguard
-      class: warrior
-      skills: heavy armor, two handed, archery, block
-      maxlevel: 30
     - name: Jordis the Sword Maiden
       race: nord
       class: warrior
       skills: heavy armor, archery, block, one handed
       marriage: yes
       maxlevel: Unknown
+      image: Jordis_Housecarl.png
+      thumb: Jordis_Housecarl_thumb.jpg
     - name: Belrand
       race: nord
       class: spellsword
       skills: destruction, light armor, one handed, restoration
       marriage: yes
       maxlevel: 40
+      image: Belrand.png
+      thumb: Belrand_thumb.jpg
     - name: Ahtar
       race: redguard
       class: warrior
       skills: Heavy Armor, two handed, Archery, Block
       maxlevel: 30
       marriage: no
+      image: Ahtar.png
+      thumb: Ahtar_thumb.jpg
   - location: Mor Khazgur
     followers:
     - name: Borgakh the Steel Heart
@@ -419,6 +476,8 @@
       skills: heavy armor, one handed, archery, sneak
       marriage: yes
       maxlevel: 30
+      image: Borghak_the_steel_heart.png
+      thumb: Borghak_the_steel_heart_thumb.jpg
   - location: Castle Volkihar
     followers:
     - name: cusith
@@ -427,12 +486,16 @@
       skills: unknown
       marriage: no
       maxlevel: 5
+      image: CuSith.png
+      thumb: CuSith_thumb.jpg
     - name: garmr
       race: "non-human"
       class: death hound
       skills: unknown
       marriage: no
       maxlevel: 5
+      image: Garmr.png
+      thumb: Garmr_thumb.jpg
 
 - id: falkreath
   cities:
@@ -444,12 +507,16 @@
       skills: heavy armor, one handed, block, archery
       marriage: yes
       maxlevel: 50
+      image: Rayya.png
+      thumb: Rayya_thumb.jpg
     - name: Barbas
       race: "non-human"
       class: dog
       skills: unknown
       marriage: no
       maxlevel: 45
+      image: Barbas.png
+      thumb: Barbas_thumb.jpg
   - location: Dark Brotherhood Sanctuary
     followers:
     - name: Shadowmere
@@ -458,6 +525,8 @@
       skills: unknown
       marriage: no
       maxlevel: 50
+      image: Shadowmere.png
+      thumb: Shadowmere_thumb.jpg
 
 - id: hjaalmarch
   cities:
@@ -469,12 +538,16 @@
       skills: one handed, heavy armor, destruction, alteration, restoration
       marriage: yes
       maxlevel: 50
+      image: Valdimar_Hearthfire.png
+      thumb: Valdimar_Hearthfire_thumb.jpg
     - name: Benor
       race: nord
       class: warrior
       skills: heavy armor, two handed, archery, block
       marriage: yes
       maxlevel: 30
+      image: Benor.png
+      thumb: Benor_thumb.jpg
   - location: meeko's shack
     followers:
     - name: Meeko
@@ -483,6 +556,8 @@
       skills: unknown
       marriage: no
       maxlevel: 25
+      image: Meeko.jpg
+      thumb: Meeko_thumb.jpg
 
 - id: Solstheim
   cities:
@@ -494,6 +569,8 @@
       skills: one handed, light armor, destruction, conjuration
       marriage: no
       maxlevel: 60
+      image: Teldryn_Sero.png
+      thumb: Teldryn_Sero_thumb.jpg
   - location: Skaal Village
     followers:
     - name: Frea
@@ -502,12 +579,16 @@
       skills: one handed, alteration, light armor, restoration
       marriage: no
       maxlevel: none
+      image: Frea.png
+      thumb: Frea_thumb.jpg
     - name: Riekling Warrior
       race: Riekling
       class: warrior
       skills: unknown
       marriage: no
       maxlevel: 23
+      image: "Riekling_(Dragonborn).png"
+      thumb: "Riekling_(Dragonborn)_thumb.jpg"
   - location: Kolbjorn Barrow
     followers:
     - name: Ralis Sedarys
@@ -516,6 +597,8 @@
       skills: one handed, light armor, block, sneak
       marriage: no
       maxlevel: 60
+      image: Ralis_Sedarys.png
+      thumb: Ralis_Sedarys_thumb.jpg
   - location: Tel Mithryn
     followers:
     - name: Talvas Fathryon
@@ -524,6 +607,8 @@
       skills: conjuration (master trainer), restoration, destruction, alteration, sneak
       marriage: no
       maxlevel: 25
+      image: Talvas_Fathryon.png
+      thumb: Talvas_Fathryon_thumb.jpg
   - location: Kagrumez
     followers:
     - name: Steadfast Dwarven Sphere
