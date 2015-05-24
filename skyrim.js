@@ -1,36 +1,46 @@
-<script>
-$(document).ready(function(){
-    count = 0;
-    $('#compare').addClass("sortable");
-    $(".sortable").sortable({
-        items: "li:not(.row-title)",
-        axis: "x",
-        revert: true,
-        scroll: false,
-        placeholder: "sortable-placeholder",
-    });
-    $("li.followers").click(function(){
-        if ( !$(this).hasClass("selected") ) {
-            $(this).addClass(count.toString());
-            $('#compare').append( $(this).clone() );
-            $(this).addClass("selected");
-            count = count + 1;
-        }
-        else {
-            id = $(this).attr("class").split(' ');
-            $(this).removeClass("selected");
-            $(this).removeClass(id[1]);
-            if ($('#compare > li').hasClass(id[1])) {
-                classid = "." + id[1];
-                $(classid).remove();
-            }
-        }
-    });
-    $("button").click(function(){
-        $('#compare > li.followers').remove();
-        $('li.followers').removeClass();
-        $('#masterlist > li').addClass("followers")
-        count = 0;
-    });
-});
-</script>
+window.onload = function () {
+  var counter = 0;
+  var $ = function (selector) {
+    return document.querySelector(selector);
+  }
+
+  // Add addFollower function to list items
+  var list = $('#masterlist').getElementsByTagName('li');
+  for (var i = 0; i < list.length; i++) {
+    list[i].onclick = addFollower;
+  }
+  
+  // Add removeAll function to button
+  var btn = $('#masterlist').getElementsByTagName('button');
+  btn[0].onclick = removeAll;
+  
+  function addFollower() {
+    if (!this.classList.contains('selected')) {
+      this.classList.add(counter.toString()); // add counter id class
+      copy = this.cloneNode(true); // make copy of follower information
+      $('#compare').appendChild(copy); // add follower to comparison page
+      this.classList.add('selected', counter.toString()); // mark as selected
+      counter += 1; // increment counter
+    }
+  }
+  
+  function removeAll() {
+    var f = $('#compare').getElementsByClassName('followers');
+    while(f[0]) {
+      f[0].parentNode.removeChild(f[0]);
+    }
+    
+    var list = $('#masterlist').getElementsByTagName('li');
+    for (var i = 0; i < list.length; i++) {
+      if (list[i].classList.contains('selected')) {
+        list[i].className = "followers";
+      }
+    }
+    
+  }
+  
+  function removeSingle() {
+    
+  }
+
+}
