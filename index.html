@@ -17,7 +17,13 @@ description: Skyrim Followers
     <ul id="search_list">
     {% for follower in loc.followers %}
         <li class="followers">
-            <div class="thumb"><a href="images/{{follower.image}}"><img src="images/{{follower.thumb}}" /></a></div>
+            <div class="thumb">
+                {% if follower.wiki %}
+                <a href="{{ follower.wiki }}"><img src="images/{{follower.thumb}}" /></a>
+                {% else %}
+                <a href="images/{{follower.image}}"><img src="images/{{follower.thumb}}" /></a>
+                {% endif %}
+            </div>
             <div class="name">{{ follower.name }}</div>
             <div class="location">{{ loc.location }}</div>
             <div class="race">{{ follower.race }}</div>

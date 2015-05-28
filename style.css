@@ -44,7 +44,7 @@ h1, h2, h3, li.row-title, li.followers {
     white-space:normal;
 }
 
-#compare {
+#compare{
     white-space:nowrap;
     margin-left:240px;
     margin-top:10px;
@@ -93,7 +93,11 @@ div.thumb {
 }
 
 #compare li > div, li.row-title > div {
-    height:90px;
+    height:50px;
+}
+
+#compare .skills {
+    height:120px;
 }
 
 li.followers {
@@ -154,11 +158,11 @@ button {
 
 .ui-sortable-helper {
    border:1px solid #ededed !important;
+   
 }
 
 .sortable-placeholder {
     width: 122px !important;
-    height: 640px;
     padding:0;
     margin:0;
 }
@@ -169,4 +173,11 @@ button {
 
 #search {
     width:100%;
+}
+
+div#credit {
+    margin-left:260px;
+    margin-top:10px;
+    color:gray;
+    font-size:10pt;
 }

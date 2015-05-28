@@ -10,6 +10,7 @@
       maxlevel: 50
       image: Aela_the_Huntress.png
       thumb: Aela_the_Huntress_thumb.jpg
+      wiki: "http://elderscrolls.wikia.com/wiki/Aela_the_Huntress"
     - name: Athis
       race: dunmer
       class: warrior
@@ -18,6 +19,7 @@
       maxlevel: 25
       image: Athis.png
       thumb: Athis_thumb.jpg
+      wiki: "http://elderscrolls.wikia.com/wiki/Athis"
     - name: Farkas
       race: nord, werewolf
       class: blacksmith
@@ -26,6 +28,7 @@
       maxlevel: 50
       image: Farkas.png
       thumb: Farkas_thumb.jpg
+      wiki: "http://elderscrolls.wikia.com/wiki/Farkas"
     - name: Njada Stonearm
       race: nord
       class: warrior
@@ -34,6 +37,7 @@
       maxlevel: 25
       image: Njada_Stonearm.png
       thumb: Njada_Stonearm_thumb.jpg
+      wiki: "http://elderscrolls.wikia.com/wiki/Njada_Stonearm"
     - name: Lydia
       race: nord
       class: warrior
@@ -42,6 +46,7 @@
       maxlevel: 50
       image: Lydia_Housecarl.png
       thumb: Lydia_Housecarl_thumb.jpg
+      wiki: "http://elderscrolls.wikia.com/wiki/Lydia"
     - name: Ria
       race: imperial
       class: warrior
@@ -50,6 +55,7 @@
       maxlevel: Unknown
       image: Ria.png
       thumb: Ria_thumb.jpg
+      wiki: "http://elderscrolls.wikia.com/wiki/Ria"
     - name: Jenassa
       race: dunmer
       class: ranger
@@ -58,6 +64,7 @@
       maxlevel: 40
       image: Jenassa.png
       thumb: Jenassa_thumb.jpg
+      wiki: "http://elderscrolls.wikia.com/wiki/Jenassa"
     - name: Torvar
       race: nord
       class: Unknown
@@ -66,6 +73,7 @@
       maxlevel: 25
       image: Torvar.png
       thumb: Torvar_thumb.jpg
+      wiki: "http://elderscrolls.wikia.com/wiki/Torvar"
     - name: Vilkas
       race: nord
       class: Unknown
@@ -74,6 +82,7 @@
       marriage: yes
       image: Vilkas.png
       thumb: Vilkas_thumb.jpg
+      wiki: "http://elderscrolls.wikia.com/wiki/Vilkas"
     - name: Uthgerd the Unbroken
       race: nord
       class: warrior
@@ -82,6 +91,7 @@
       maxlevel: 30
       image: Uthgerd_the_Unbroken.png
       thumb: Uthgerd_the_Unbroken_thumb.jpg
+      wiki: "http://elderscrolls.wikia.com/wiki/Uthgerd_the_Unbroken"
   - location: Riverwood
     followers:
     - name: faendal
