@@ -9,45 +9,10 @@
         <link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700|Open+Sans:400,700' rel='stylesheet' type='text/css'>
         <script src="//code.jquery.com/jquery-1.10.2.js"></script>
         <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+        <script src="searchfilter.js"></script>
+        <script src="skyrim.js"></script>
         <title>{{ page.title }}</title>
     </head>
-    
-    <script>
-    $(document).ready(function(){
-        count = 0;
-        $('#compare').addClass("sortable");
-        $(".sortable").sortable({
-            items: "li:not(.row-title)",
-            axis: "x",
-            revert: true,
-            scroll: false,
-            placeholder: "sortable-placeholder",
-        });
-        $("li.followers").click(function(){
-            if ( !$(this).hasClass("selected") ) {
-                $(this).addClass(count.toString());
-                $('#compare').append( $(this).clone() );
-                $(this).addClass("selected");
-                count = count + 1;
-            }
-            else {
-                id = $(this).attr("class").split(' ');
-                $(this).removeClass("selected");
-                $(this).removeClass(id[1]);
-                if ($('#compare > li').hasClass(id[1])) {
-                    classid = "." + id[1];
-                    $(classid).remove();
-                }
-            }
-        });
-        $("button").click(function(){
-            $('#compare > li.followers').remove();
-            $('li.followers').removeClass();
-            $('#masterlist > li').addClass("followers")
-            count = 0;
-        });
-    });
-    </script>
 
     <body>
         <div id="container">

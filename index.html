@@ -5,10 +5,16 @@ description: Skyrim Followers
 <h1>Skyrim Followers</h1>
 <button>Clear Chart</button>
 <p>Select at least two followers for a detailed comparison.</p>
+
+<input type="text" id="search" placeholder="Search for a follower">
+
 {% for hold in site.data.skyrim %}
     {% for loc in hold.cities %}
-    <h2>{{ hold.id }}</h2>
-    <h3>{{ loc.location }}</h3>
+    <div id="region_title">
+        <h2>{{ hold.id }}</h2>
+        <h3>{{ loc.location }}</h3>
+    </div>
+    <ul id="search_list">
     {% for follower in loc.followers %}
         <li class="followers">
             <div class="thumb"><a href="images/{{follower.image}}"><img src="images/{{follower.thumb}}" /></a></div>
@@ -27,5 +33,7 @@ description: Skyrim Followers
             <div class="maxlevel">{{ follower.maxlevel }}</div>
         </li>
     {% endfor %}
+    </ul>
     {% endfor %}
 {% endfor %}
+</ul>
