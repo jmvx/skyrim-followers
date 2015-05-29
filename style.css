@@ -121,7 +121,7 @@ li.row-title {
     background-color:#fafafa;
 }
 
-#masterlist li.followers {
+#masterlist li.followers, #masterlist li.region_title {
     list-style-type:none;
     padding:10px;
     cursor:pointer;

@@ -10,11 +10,11 @@ description: Skyrim Followers
 
 {% for hold in site.data.skyrim %}
     {% for loc in hold.cities %}
-    <div id="region_title">
+    <ul id="search_list">
+    <li class="region_title">
         <h2>{{ hold.id }}</h2>
         <h3>{{ loc.location }}</h3>
-    </div>
-    <ul id="search_list">
+    </li>
     {% for follower in loc.followers %}
         <li class="followers">
             <div class="thumb">

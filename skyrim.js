@@ -31,4 +31,5 @@ $(document).ready(function(){
         $('#masterlist ul > li').addClass("followers")
         count = 0;
     });
+    
 });

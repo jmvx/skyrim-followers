@@ -28,17 +28,15 @@ $(document).ready(function() {
     //what this does is to make the search less exact by searching all words and not full strings
     var searchSplit = searchTerm.replace(/ /g, "'):containsi('")
     
-    
     //here is the meat. We are searching the list based on the search terms
-    $("#masterlist #search_list li.followers").not(":containsi('" + searchSplit + "')").each(function(e)   {
+    $("ul#search_list li").not(":containsi('" + searchSplit + "')").each(function(e)   {
 
           //add a "hidden" class that will remove the item from the list
           $(this).addClass('hidden');
-
     });
     
     //this does the opposite -- brings items back into view
-    $("#masterlist #search_list li:containsi('" + searchSplit + "')").each(function(e) {
+    $("ul#search_list li:containsi('" + searchSplit + "')").each(function(e) {
 
           //remove the hidden class (reintroduce the item to the list)
           $(this).removeClass('hidden');
