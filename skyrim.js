@@ -28,7 +28,8 @@ $(document).ready(function(){
     $("button").click(function(){
         $('#compare > li.followers').remove();
         $('li.followers').removeClass();
-        $('#masterlist ul > li').addClass("followers")
+        $('#masterlist ul > li:not(.region_title)').addClass('followers');
+
         count = 0;
     });
     
